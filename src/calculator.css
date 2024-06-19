@@ -1,0 +1,104 @@
+.calculatecontainer
+{
+    width: 350px;
+    background-color: rgb(27, 27, 27);
+    margin: auto;
+    margin-top: 150px;
+    height: auto;
+}
+.display
+{
+    height: 80px;
+    background-color: rgb(43, 43, 43);  
+    padding-top: 15px;
+}
+.display .input
+{
+    width: 90%;
+    height: 50px;
+    background-color: rgb(52, 52, 52);
+    margin-top: 10px;
+    margin:5px 13px;
+}
+.display .input:focus
+{
+    border:2px solid blue;
+}
+.display .input:hover
+{
+    border:2px solid rgb(43, 43, 223);
+}
+
+.display input
+{
+    width: 90%;
+    height: 40px;
+    background: transparent;
+    outline: none;
+    border: none;
+    color: white;
+    font-size: 30px;
+}
+.numberpanel
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+.numberpanel div
+{
+    width: 77px;
+    height: 80px;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: rgb(47, 47, 47);
+    cursor: pointer;
+}
+.numberpanel div:hover
+{
+    background-color: rgb(57, 57, 57);
+}
+.numberpanel div:focus
+{
+    background-color: rgb(57, 57, 57);
+}
+
+.numberpanel .divide
+{
+    width: 77px;
+}
+.numberpanel .minus
+{
+    width: 163px;
+    background-color: orangered;
+}
+.numberpanel .minus:hover
+{
+    background-color: rgb(235, 93, 42);
+}
+.numberpanel .minus:focus
+{
+    background-color: rgb(235, 93, 42);
+}
+.numberpanel .siber
+{
+    width: 110px;
+}
+.numberpanel .equals
+{
+    width:220px;
+    background-color: rgb(116, 116, 252);
+}
+.numberpanel .equals:hover
+{
+    background-color: rgb(148, 148, 239);
+}
+.numberpanel .multi
+{
+
+}
+.numberpanel .cross
+{
+}
